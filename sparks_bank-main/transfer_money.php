@@ -8,8 +8,6 @@
 
 <marquee><h1>Transfer Money</h1></marquee></font>
         <br>
-            <div class="row">
-                <div class="col">
                     <table>
                         <thead>
                             <tr>
@@ -37,10 +35,8 @@
             
                         </tbody>
                     </table>
-                    </div>
-                </div>
-            </div> 
-         </div>
+                
+             
    
 </body>
 </html>
