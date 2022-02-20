@@ -20,9 +20,10 @@ if(isset($_POST['submit']))
     // constraint to check input of negative value by user
     if (($amount)<0)
    {
-        echo '<script type="text/javascript">';
-        echo ' alert("Oops! Negative values cannot be transferred")';  // showing an alert box.
-        echo '</script>';
+	     
+        echo '<script type="text/javascript">';  
+        echo ("Oops! Negative values cannot be transferred")';  
+	 echo '</script>';
     }
 
 
@@ -83,7 +84,6 @@ if(isset($_POST['submit']))
   include 'nav.php';
 ?>
 
-	<div class="container">
         <h1>Transaction</h1>
             <?php
                 include 'config.php';
@@ -98,18 +98,18 @@ if(isset($_POST['submit']))
             ?>
             <form method="post" name="tcredit" class="tabletext" ><br>
         <div>
-            <table class="table table-striped table-condensed table-bordered">
+            <table>
                 <tr>
-                    <th class="text-center">Id</th>
-                    <th class="text-center">Name</th>
-                    <th class="text-center">Email</th>
-                    <th class="text-center">Balance</th>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Balance</th>
                 </tr>
                 <tr>
-                    <td class="py-2"><?php echo $rows['id'] ?></td>
-                    <td class="py-2"><?php echo $rows['name'] ?></td>
-                    <td class="py-2"><?php echo $rows['email'] ?></td>
-                    <td class="py-2"><?php echo $rows['balance'] ?></td>
+                    <td><?php echo $rows['id'] ?></td>
+                    <td><?php echo $rows['name'] ?></td>
+                    <td><?php echo $rows['email'] ?></td>
+                    <td><?php echo $rows['balance'] ?></td>
                 </tr>
             </table>
         </div>
@@ -145,10 +145,9 @@ if(isset($_POST['submit']))
             <input type="number" class="form-control" name="amount" required>   
             <br><br>
                 <div class="text-center" >
-            <button class="btn btn-primary" name="submit" type="submit" id="btn">Transfer</button>
+            <button class="btn" name="submit" type="submit" id="btn">Transfer</button>
             </div>
         </form>
     </div>
-<?php include('footer.php'); ?>
 </body>
 </html>
