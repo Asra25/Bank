@@ -1,7 +1,7 @@
-<?php include('nav.php') ?>
 
 
-<font face=Adobe Gothic Std"font size="6"font color="black"><b><marquee><h1>Welcome To Union Bank</h1></marquee></b></font>
+
+<b><marquee><h1>Welcome To Union Bank</h1></marquee></b></font>
     <div class="center">
       <table cellpadding="20">
         <tr cellpadding="20">
