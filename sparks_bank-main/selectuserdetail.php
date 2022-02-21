@@ -80,9 +80,6 @@ if(isset($_POST['submit']))
 }
 ?>
  
-<?php
-  include 'nav.php';
-?>
 
         <h1>Transaction</h1>
             <?php
