@@ -4,7 +4,7 @@
     $result = mysqli_query($conn,$sql);
 ?>
 
-<?php include('nav.php'); ?>
+
 
 <marquee><h1>Transfer Money</h1></marquee></font>
         <br>
